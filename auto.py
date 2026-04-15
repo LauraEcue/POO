@@ -1,0 +1,46 @@
+class Auto:
+    def __init__(self, marca, color, ruedas):
+        self.marca = marca
+        self.color = color
+        self.ruedas = ruedas
+
+
+
+# Probar lo que hicimos
+mi_auto = Auto("Toyota", "Rojo", 4)
+print(f"marca: {mi_auto.marca}")
+print(f"color: {mi_auto.color}")
+print(f"ruedas: {mi_auto.ruedas}")
+
+class Telefono:
+    def __init__(self, marca, tamaño, modelo, color):
+        self.marca = marca
+        self.tamaño = tamaño
+        self.modelo = modelo
+        self.color = color
+
+
+ # probar lo que hice
+mi_telefono = Telefono("motorola", "17cm", "Model 2017", "blanco")
+print(f"marca: {mi_telefono.marca}")
+print(f"tamaño: {mi_telefono.tamaño}")
+print(f"modelo: {mi_telefono.modelo}")
+print(f"color: {mi_telefono.color}")  
+
+
+
+class Estudiante:
+    def __init__(self, nombre, apellido, cedula, estatura):
+        self.nombre = nombre
+        self.apellido = apellido
+        self.cedula = cedula
+        self.estatura = estatura
+
+#probar lo que hice
+mi_compañero = Estudiante("laura", "castillo", 1081398452, 1.59)
+print(f"nombre: {mi_compañero.nombre}")
+print(f"apellido: {mi_compañero.apellido}")
+print(f"cedula: {mi_compañero.cedula}")
+print(f"estatura: {mi_compañero.estatura}")        
+
+
