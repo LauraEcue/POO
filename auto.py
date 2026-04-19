@@ -4,13 +4,14 @@ class Auto:
         self.color = color
         self.ruedas = ruedas
 
+    def describir(self):
+        return f"Auto {self.marca} de color {self.color}"    
+
 
 
 # Probar lo que hicimos
 mi_auto = Auto("Toyota", "Rojo", 4)
-print(f"marca: {mi_auto.marca}")
-print(f"color: {mi_auto.color}")
-print(f"ruedas: {mi_auto.ruedas}")
+print(mi_auto.describir())
 
 class Telefono:
     def __init__(self, marca, tamaño, modelo, color):
