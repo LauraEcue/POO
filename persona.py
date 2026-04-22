@@ -18,9 +18,15 @@ class Persona:
         return f"Hola, soy {self.nombre}, tengo {self.edad} años, mi cedula es {self.cedula},"
 
 #prueba
-persona = Persona("Laura Castillo", 20, "1081324564",)
-print(persona.describir(), persona.categoria())
+Laura = Persona("Laura Castillo", 20, "1081324564",)
+print(Laura.describir(), Laura.categoria())
 
-persona = Persona("Jeison gallego", 50, "12342134",)
-print(persona.describir(), persona.categoria())
+Jeison = Persona("Jeison gallego", 50, "12342134",)
+print(Jeison.describir(), Jeison.categoria())
+
+Luis = Persona("Luis Gutierrez", 23, "1120435432",)
+print(Luis.describir(), Luis.categoria())
+
+Julian = Persona("Julian Lopez", 10, "123124235",)
+print(Julian.describir(), Julian.categoria())
 
