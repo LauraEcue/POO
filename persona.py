@@ -30,3 +30,7 @@ print(Luis.describir(), Luis.categoria())
 Julian = Persona("Julian Lopez", 10, "123124235",)
 print(Julian.describir(), Julian.categoria())
 
+Maria = Persona("Maria Ecue", 45,"213423454", )
+print(Maria.describir(), Maria.categoria())
+
+
