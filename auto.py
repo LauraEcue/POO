@@ -20,14 +20,12 @@ class Telefono:
         self.modelo = modelo
         self.color = color
 
+    def describir(self):
+        return f"mi telefono {self.marca} de color {self.color}, es de {self.tamaño}"
 
  # probar lo que hice
 mi_telefono = Telefono("motorola", "17cm", "Model 2017", "blanco")
-print(f"marca: {mi_telefono.marca}")
-print(f"tamaño: {mi_telefono.tamaño}")
-print(f"modelo: {mi_telefono.modelo}")
-print(f"color: {mi_telefono.color}")  
-
+print(mi_telefono.describir())
 
 
 class Estudiante:
