@@ -34,12 +34,12 @@ class Estudiante:
         self.apellido = apellido
         self.cedula = cedula
         self.estatura = estatura
+    def describir(self):
+        return f"mi nombre es {self.nombre } {self.apellido}, mi cedula es {self.cedula}, y mido {self.estatura} "
+    
 
 #probar lo que hice
-mi_compañero = Estudiante("laura", "castillo", 1081398452, 1.59)
-print(f"nombre: {mi_compañero.nombre}")
-print(f"apellido: {mi_compañero.apellido}")
-print(f"cedula: {mi_compañero.cedula}")
-print(f"estatura: {mi_compañero.estatura}")        
+mi_compañero = Estudiante("laura", "castillo", 10818665, 1.59)
+print(mi_compañero.describir())       
 
 
